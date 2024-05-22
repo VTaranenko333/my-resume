@@ -1,304 +1,317 @@
 /* Body */
 body {
-    background: #f6f6fa;
-    padding: 40px 40px 40px 40px;
-    font-family: "Montserrat", sans-serif;
+  background: #f6f6fa;
+  padding: 40px 40px 40px 40px;
+  font-family: "Montserrat", sans-serif;
 
 }
 
 ul,
 ol {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Wrapper */
 .wrapper {
-    background: #ffffff;
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    margin: 0 auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /* Main content */
 .main-conten {
-    padding: 88px 80px 40px 80px;
-    box-sizing: border-box;
+  padding: 88px 80px 40px 80px;
+  box-sizing: border-box;
 }
 
 
 /* Sidebar */
 .sidebar {
-    background: #e0ebfe;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    box-sizing: border-box;
-    width: 370px;
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  width: 370px;
 }
 
 .sidebar-content {
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-right: 40px;
-    box-sizing: border-box;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
 }
 
 .contacts-title {
-    color: #161d2a;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 
 .contacts-type {
-    font-weight: 700;
-    font-size: 14px;
-    color: #161d2a;
-    line-height: 24px;
-    margin-right: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #161d2a;
+  line-height: 24px;
+  margin-right: 8px;
 }
 
 .contacts-link {
-    color: #2979ff;
-    font-size: 14px;
-    font-weight: 400;
-    font-size: 14px;
-    text-decoration-line: underline;
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration-line: underline;
 }
 
 .contacts-item {
-    margin-top: 0;
-    margin-bottom: 4px;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 
 .contacts-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 
 /* t-skills-container */
 .t-skills-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .t-skills-title {
-    font-weight: 700;
-    font-size: 22px;
-    color: #161d2a;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .t-skills-list {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .t-skills-list-item {
-    color: #161d2a;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 
 }
 
 /* s-skills-container */
 .s-skills-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .s-skills-title {
-    font-weight: 700;
-    font-size: 22px;
-    color: #161d2a;
-    line-height: normal;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .s-skills-list {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .s-skills-list-item {
-    color: #161d2a;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 /* Main content */
 .my-profession {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .my-name {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 55px;
-    color: #000;
-    margin-bottom: 12px;
-    margin-top: 0;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin-bottom: 12px;
+  margin-top: 0;
 }
 
 .my-descr {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 
 }
 
 .my-info {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 
 /* my projects */
 
 .my-projects-title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .my-project-item {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 171%;
-    color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  color: #000;
 }
 
 .my-projects-list {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .my-projects-item-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration-skip: underline;
-    color: #005fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-skip: underline;
+  color: #005fff;
 
 }
 
 .my-project-item-tec {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 
 .my-project-container {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 
 /* work exp */
-.all-work-exp-container{
-    margin-bottom: 40px;
+.all-work-exp-container {
+  margin-bottom: 40px;
 }
 
 .work-exp-title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 24px;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .work-exp-company {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .company-name {
-    color: #6d9bf5;
+  color: #6d9bf5;
 }
 
 .work-exp-period {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #a8a8a8;
-    margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
 }
 
 .work-exp-separator {
-    color: #000;
+  color: #000;
 }
 
 .work-exp-dutis-list {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .work-exp-dutis-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 
 .work-exp-container {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 /* Education */
 .education-title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 24px;
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .educational-institution {
-    font-weight: 700;
-    font-size: 16px;
-    color: #6d9bf5;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #6d9bf5;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .eucational-department {
-    font-weight: 700;
-    font-size: 14px;
-    color: #000;
-    line-height: 16px;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  line-height: 16px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .educational-period {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    color: #a8a8a8;
-    margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
 }
 
 .educational-institution2 {
-    font-weight: 700;
-    font-size: 16px;
-    color: #6d9bf5;
-    margin-top: 40px;
-    margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #6d9bf5;
+  margin-top: 40px;
+  margin-bottom: 8px;
 }
+
+@media screen and (max-width: 960px) {
+  body {
+    padding: 20px;
+  }
+
+  .main-conten {
+    padding: 40px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {}
