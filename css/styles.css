@@ -313,12 +313,37 @@ ol {
   justify-items: center;
 }
 
+/*------------- 960px-------------- */
 @media screen and (max-width: 960px) {
   body {
     padding: 20px;
   }
 
+  .my-name {
+    font-size: clamp(24px, 6vw, 32px);
+    line-height: 40px;
+  }
 
+  .work-exp-title,
+  .education-title,
+  .my-projects-title,
+  .contacts-title,
+  .t-skills-title,
+  .s-skills-title {
+    font-size: clamp(16px, 4vw, 18px);
+  }
+
+  .my-descr,
+  .work-exp-dutis-item,
+  .my-project-item,
+  .my-projects-item-link,
+  .my-project-item-tec,
+  .contacts-item,
+  .contacts-link,
+  .t-skills-list-item,
+  .s-skills-list-item {
+    font-size: clamp(10px, 2.5vw, 12px);
+  }
 
   .sidebar {
     width: 35%;
@@ -337,7 +362,8 @@ ol {
   }
 }
 
-@media screen and (max-width: 775) {
+/*------------- 960px-------------- */
+@media screen and (max-width: 775px) {
   .sidebar {
     width: 35%;
   }
@@ -351,7 +377,8 @@ ol {
   }
 
   .my-name {
-    font-size: 28;
+    font-size: clamp(24px, 6vw, 32px);
+    line-height: 40px;
   }
 
   .work-exp-title,
@@ -360,7 +387,7 @@ ol {
   .contacts-title,
   .t-skills-title,
   .s-skills-title {
-    font-size: 16px;
+    font-size: clamp(16px, 4vw, 18px);
   }
 
   .my-descr,
@@ -372,12 +399,14 @@ ol {
   .contacts-link,
   .t-skills-list-item,
   .s-skills-list-item {
-    font-size: 10px;
+    font-size: clamp(10px, 2.5vw, 12px);
   }
 
 }
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 680px) {
   body {
     padding: 0;
   }
@@ -394,4 +423,49 @@ ol {
     padding: 20px;
   }
 
+  .my-name {
+
+    font-size: clamp(24px, 6vw, 32px);
+    line-height: 40px;
+
+  }
+
+  .work-exp-title,
+  .education-title,
+  .my-projects-title,
+  .contacts-title,
+  .t-skills-title,
+  .s-skills-title {
+    font-size: clamp(16px, 4vw, 18px);
+  }
+
+  .my-descr,
+  .work-exp-dutis-item,
+  .my-project-item,
+  .my-projects-item-link,
+  .my-project-item-tec,
+  .contacts-item,
+  .contacts-link,
+  .t-skills-list-item,
+  .s-skills-list-item {
+    font-size: clamp(10px, 2.5vw, 12px);
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .sidebar-img {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
